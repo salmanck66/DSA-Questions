@@ -1,3 +1,4 @@
+//manuel
 function revString(strr)
 {
     let arr = strr.split('')
@@ -17,3 +18,11 @@ return arr.join("")
 }
 
 console.log(revString("HELLO"))
+
+const str = "HELLO"
+    function revStrInbuilt(str)
+    {
+        return str.split("").reverse().join("")
+    }
+console.log(revStrInbuilt("HELLO"));
+console.log("sdaasd".split(""))
